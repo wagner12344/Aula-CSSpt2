@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover{
+    color:red;
+}
+
+input:checked {
+    width: 100px;
+    height: 100px;
+}
+
+.input1:focus{
+    border: 1px solid red;
+    outline: none;
+}
+
+input2:read-only{
+    color: blue;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color:chartreuse;
+}
+
+div:empty{
+    background-color: blue;
+}

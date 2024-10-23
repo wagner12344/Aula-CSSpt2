@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    margin: 43px 0 140px 76px;
+    
+}
+
+.link-header{
+    margin-right: 23px;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+.button-header{
+    width: 130px;
+    height: 41px;
+    color: #665AE1;
+    border-radius: 20.5px;
+    background: #665AE1;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    }
+
+    img{
+        margin-left: 120px;
+        width: 568px;
+        height: 500px;
+        display: inline-block;
+    }
+
+    aside{
+        display: inline-block;
+        margin-left: 86px;
+    }
+
+    h1 {
+        color: #515151;
+        font-size: 100px;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    h2{
+        color: #515151;
+        font-size: 58px;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    p{
+        width: 514px;
+        color: #848484;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 32px;
+        margin-bottom: 83px;
+    }
+
+    .button-aside{
+        width: 239px;
+        height: 64px;
+        border-radius: 20.5px;
+        background: #ADFF00;
+        color: #000;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+        cursor: pointer;
+       
+    }
+
+    @media screen and (max-width: 895px) {
+        header{
+            display: none;
+        
+        }
+
+        img{
+            width: 354px;
+            height: 314px;
+            margin-top: 152px;
+            display: block;
+            margin-bottom: 35px;
+            margin-left: 26px ;
+        }
+
+        p{
+            display: none;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 50px;
+            width: 264px;
+            height: 52px;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        aside{
+            margin: 0 63px 133px 64px;
+        }
+
+        .button-aside {
+            display: block;
+            margin: 0 auto;
+            margin-top: 17px;
+        }
+    }
+
+    
