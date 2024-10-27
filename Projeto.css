@@ -104,7 +104,9 @@ header{
         width: 100%;
         height: 50%;
         padding: 0;
-        margin: 0;
+        margin: 0 auto;
+        text-align: center;
+        
     }
 
     .container-right{
@@ -119,7 +121,7 @@ header{
         position: static;
     }
 
-    .header-section{
+    .container-right{
         display: none;
     }
 
